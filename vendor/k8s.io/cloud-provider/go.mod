@@ -2,19 +2,22 @@
 
 module k8s.io/cloud-provider
 
-go 1.12
+go 1.15
 
 require (
-	k8s.io/api v0.16.8
-	k8s.io/apimachinery v0.16.8
-	k8s.io/client-go v0.16.8
-	k8s.io/klog v1.0.0
-	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
+	github.com/google/go-cmp v0.4.0
+	github.com/stretchr/testify v1.4.0
+	k8s.io/api v0.19.3
+	k8s.io/apimachinery v0.19.3
+	k8s.io/client-go v0.19.3
+	k8s.io/component-base v0.19.3
+	k8s.io/klog/v2 v2.2.0
+	k8s.io/utils v0.0.0-20200729134348-d5654de09c73
 )
 
 replace (
-	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7
-	k8s.io/api => k8s.io/api v0.16.8
-	k8s.io/apimachinery => k8s.io/apimachinery v0.16.8
-	k8s.io/client-go => k8s.io/client-go v0.16.8
+	k8s.io/api => k8s.io/api v0.19.3
+	k8s.io/apimachinery => k8s.io/apimachinery v0.19.3
+	k8s.io/client-go => k8s.io/client-go v0.19.3
+	k8s.io/component-base => k8s.io/component-base v0.19.3
 )
