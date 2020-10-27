@@ -1,4 +1,4 @@
-// package kubevirt
+package kubevirt
 
 // import (
 // 	"context"
